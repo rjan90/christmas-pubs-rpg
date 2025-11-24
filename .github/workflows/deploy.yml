@@ -31,6 +31,9 @@ jobs:
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
       
+      - name: Fix asset paths for GitHub Pages
+        run: node fix-paths.js
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
