@@ -75,7 +75,7 @@
                         {
                          "name":"dialogue",
                          "type":"string",
-                         "value":"Pokemon! GOTTA Catch Em All!!"
+                         "value":"[\"Jeg digger Pokemon! GOTTA Catch Em All!!\", \"GOTTA CATCH EM' ALLL\"]"
                         }, 
                         {
                          "name":"name",

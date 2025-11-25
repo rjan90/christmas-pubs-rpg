@@ -41,8 +41,8 @@
             0, 22, 22, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 22, 21, 0,
             0, 22, 22, 21, 2, 2, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 21, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 1, 2, 21, 2, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 203, 204, 0, 0, 0, 0, 0,
+            0, 0, 1, 2, 21, 2, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 205, 206, 0, 0, 0, 0, 0,
             0, 0, 2, 21, 1, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 21, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 22, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 22, 0, 0, 0, 0, 0,
@@ -105,12 +105,12 @@
                         {
                          "name":"dialogue",
                          "type":"string",
-                         "value":"Lurer p\u00e5 om jeg vinner i \u00e5r jeg? Jeg er jo en ekte CB-bitch"
+                         "value":"[\"Jeg tror jeg vinner \u00e5rets kostyme i \u00e5r ogs\u00e5! Jeg pleier jo \u00e5 vinne sammen med resten av CB-bitches crewet\", \"Har du forresten sett s\u00f8steren min?\"]"
                         }, 
                         {
                          "name":"name",
                          "type":"string",
-                         "value":"Madde:"
+                         "value":"Madde eller Natalie:"
                         }, 
                         {
                          "name":"npc",
@@ -123,6 +123,33 @@
                  "width":43.2098765432099,
                  "x":446.913580246914,
                  "y":517.283950617284
+                }, 
+                {
+                 "height":66.6666666666667,
+                 "id":7,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dialogue",
+                         "type":"string",
+                         "value":"[\"Denne sykkelen er ikke bare et fremkomstmiddel, den er et h\u00e5ndlaget kj\u00e6rlighetsbrev til alt som ruller sakte nok til at du faktisk rekker \u00e5 nyte livet...\", \"Hver eike her har en historie, og jeg kjenner alle sammen personlig.\"]"
+                        }, 
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"J\u00f8rgen"
+                        }, 
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"NPC_1"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":60.4938271604938,
+                 "x":607.407407407407,
+                 "y":220.987654320988
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -159,7 +186,7 @@
          "y":0
         }],
  "nextlayerid":6,
- "nextobjectid":7,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
@@ -176,6 +203,18 @@
         {
          "firstgid":182,
          "source":"hus2.tsx"
+        }, 
+        {
+         "firstgid":198,
+         "source":"bike.tsx"
+        }, 
+        {
+         "firstgid":199,
+         "source":"bike2.tsx"
+        }, 
+        {
+         "firstgid":203,
+         "source":"bike3.tsx"
         }],
  "tilewidth":32,
  "type":"map",

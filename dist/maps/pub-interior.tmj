@@ -119,7 +119,12 @@
                         {
                          "name":"dialogue",
                          "type":"string",
-                         "value":"Du fant meg!"
+                         "value":"[\"Du fant meg! For \u00e5 f\u00e5 vite det siste sp\u00f8rsm\u00e5let i quizen m\u00e5 du g\u00e5 til den ekte Stine L\", \"Bruk kodeordet 12-PUBS\"]"
+                        }, 
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Stine L"
                         }, 
                         {
                          "name":"npc",
@@ -144,6 +149,11 @@
                          "value":"Sn\u00f8vle, sn\u00f8vle, sn\u00f8vle"
                         }, 
                         {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Kalena"
+                        }, 
+                        {
                          "name":"npc",
                          "type":"string",
                          "value":"NPC_2"
@@ -163,7 +173,12 @@
                         {
                          "name":"dialogue",
                          "type":"string",
-                         "value":"\u00c6 heter NICOLAIII!"
+                         "value":"Ahh, endelig kan jeg slappe av med noen kokrolige pils!"
+                        }, 
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Nicolay"
                         }, 
                         {
                          "name":"npc",
