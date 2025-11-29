@@ -119,7 +119,7 @@
                         {
                          "name":"dialogue",
                          "type":"string",
-                         "value":"[\"Du fant meg! For \u00e5 f\u00e5 vite det siste sp\u00f8rsm\u00e5let i quizen m\u00e5 du g\u00e5 til den ekte Stine L\", \"Bruk kodeordet 12-PUBS\"]"
+                         "value":"[\"Du fant meg! For \u00e5 f\u00e5 siste del av quizen g\u00e5 til den ekte Stine L\", \"Si det hemmelige utsagnet til henne: *Du virker mindre skummel enn man vanligvis forventer av en dommer*\"]"
                         }, 
                         {
                          "name":"name",

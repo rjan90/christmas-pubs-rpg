@@ -40,3 +40,4 @@ content = content.replace(/'\/(songs\/[^']+)'/g, `'${basePath}/$1'`);
 fs.writeFileSync(jsFile, content, 'utf8');
 console.log(`Fixed paths in ${jsFiles[0]}`);
 
+
